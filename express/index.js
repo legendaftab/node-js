@@ -57,4 +57,4 @@ app.get("/search",(req,res)=>{
     res.send(`the search you is @${q}`);
     console.log(req.query)
    
-})
+});
